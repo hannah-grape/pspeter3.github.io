@@ -3,7 +3,12 @@ layout: post
 title: "The Death of Alchemr"
 date: 2012-04-02 21:03
 comments: true
-categories: padrino alchemr ruby node express
+tags:
+  - padrino
+  - alchemr
+  - ruby
+  - node
+  - express
 ---
 
 For the last few weeks, I had been working on a website called Alchemr with my

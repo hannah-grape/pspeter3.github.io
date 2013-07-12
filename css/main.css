@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 13.34px 'Roboto', sans-serif;
   font-size: small;
   text-align: center;
 }
@@ -50,7 +50,7 @@ ul.posts li {
 
 ul.posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
+  font-family: 'Droid Sans Mono', sans-serif;
   font-size: 80%;
 }
 
@@ -162,4 +162,12 @@ ul.posts span {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+pre, code {
+  font-family: 'Droid Sans Mono', sans-serif;
 }

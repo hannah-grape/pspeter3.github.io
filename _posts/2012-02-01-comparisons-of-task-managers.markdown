@@ -3,7 +3,10 @@ layout: post
 title: "Comparisons of Task Managers"
 date: 2012-02-01 09:59
 comments: true
-categories: tasks gtd productivity
+tags: 
+  - tasks
+  - gtd
+  - productivity
 ---
 
 Every few months, I end up deciding if what current task manager I am using is

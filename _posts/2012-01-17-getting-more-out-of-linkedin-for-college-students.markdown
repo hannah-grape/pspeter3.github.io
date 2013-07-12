@@ -3,7 +3,8 @@ layout: post
 title: "Getting More Out of LinkedIn for College Students"
 date: 2012-01-17 11:31
 comments: true
-categories: linkedin
+tags: 
+  - linkedin
 ---
 
 Recently I've been asked by a lot of my friends at school what value can they

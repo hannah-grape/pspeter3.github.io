@@ -3,7 +3,9 @@ layout: post
 title: "Piracy Is a Problem"
 date: 2012-01-25 23:23
 comments: true
-categories: piracy SOPA
+tags:
+  - piracy
+  - SOPA
 ---
 
 Recently I've seen a lot of debate about the role of piracy on the internet. I

@@ -3,7 +3,7 @@ layout: post
 title: "Tomorrow Theme"
 date: 2011-10-10 22:37
 comments: true
-categories: gedit ubuntu elementary
+tags: gedit ubuntu elementary
 ---
 
 Hi, everyone, so I'm a big fan of Chris Kempson's Tomorrow Theme which

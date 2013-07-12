@@ -3,7 +3,8 @@ layout: post
 title: "How to Break an Xbox 360"
 date: 2011-11-03 15:30
 comments: true
-categories: xbox360
+tags:
+  - xbox360
 ---
 
 I lived in NorCal this summer while I had an internship in Silicon Valley. Since

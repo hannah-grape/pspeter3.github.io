@@ -3,7 +3,10 @@ layout: post
 title: "Fixing SMS Timestamp Issue on Android 2.3"
 date: 2012-01-10 13:37
 comments: true
-categories: sms android cyanogenmod
+tags: 
+  - sms 
+  - android
+  - cyanogenmod
 ---
 
 I recently installed CyanogenMod 7.1 onto my Samsung Captivate because I was

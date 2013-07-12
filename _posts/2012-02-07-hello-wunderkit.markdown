@@ -3,7 +3,11 @@ layout: post
 title: "Hello Wunderkit"
 date: 2012-02-07 12:42
 comments: true
-categories: tasks gtd productivity wunderkit
+tags: 
+  - tasks
+  - gtd
+  - productivity
+  - wunderkit
 ---
 
 Last week I wrote a [comparison of various task managers](http://pspeter3.github.com/blog/2012/02/01/comparisons-of-task-managers/),

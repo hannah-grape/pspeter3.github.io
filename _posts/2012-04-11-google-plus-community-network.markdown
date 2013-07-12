@@ -3,7 +3,8 @@ layout: post
 title: "Google+: Community Network?"
 date: 2012-04-11 14:11
 comments: true
-categories: google+
+tags:
+ - google+
 ---
 
 With the new Google+ Redesign today, I've been thinking about what the role of
