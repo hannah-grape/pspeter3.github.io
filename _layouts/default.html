@@ -27,15 +27,14 @@
             <div class="footer">
               <div class="contact">
                 <p>
-                  Your Name<br />
-                  What You Are<br />
-                  your@email.com
+                  {{ site.username }} <br />
+                  {{ site.description }}
                 </p>
               </div>
               <div class="contact">
                 <p>
-                  <a href="http://github.com/yourusername/">github.com/yourusername</a><br />
-                  <a href="http://twitter.com/yourusername/">twitter.com/yourusername</a><br />
+                  <a href="http://github.com/{{ site.github_username }}">github.com/{{ site.github_username }}</a><br />
+                  <a href="http://twitter.com/{{ site.twitter_username }}/">twitter.com/{{ site.twitter_username }}</a><br />
                 </p>
               </div>
             </div>
