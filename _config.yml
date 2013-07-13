@@ -4,6 +4,8 @@
 pygments: true
 markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title
+exclude:
+  - assets
 
 ###
 # Site Configuration
