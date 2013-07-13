@@ -1,0 +1,18 @@
+{
+  "name": "pspeter3.github.io",
+  "description": "A personal static blog",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pspeter3/pspeter3.github.io.git"
+  },
+  "keywords": [
+    "blog",
+    "markdown",
+    "jekyll",
+    "grunt"
+  ],
+  "author": "Phips Peter",
+  "license": "BSD",
+  "gitHead": "c395eec761091c8815068e3b7fbed25e799e6187"
+}
