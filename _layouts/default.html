@@ -20,7 +20,7 @@
         <div class="container">
           <div class="site">
             <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+              <h1 class="title"><a href="/">{{ site.title }}</a></h1>
               <a class="extra" href="/">home</a>
             </div>
 
@@ -29,14 +29,14 @@
             <div class="footer">
               <div class="contact">
                 <p>
-                  {{ site.username }} <br />
+                  {{ site.author }} <br />
                   {{ site.description }}
                 </p>
               </div>
               <div class="contact">
                 <p>
-                  <a href="http://github.com/{{ site.github_username }}">github.com/{{ site.github_username }}</a><br />
-                  <a href="http://twitter.com/{{ site.twitter_username }}/">twitter.com/{{ site.twitter_username }}</a><br />
+                  <a href="http://github.com/{{ site.github_username }}">github.com/{{ site.accounts.github }}</a><br />
+                  <a href="http://twitter.com/{{ site.twitter_username }}/">twitter.com/{{ site.accounts.twitter }}</a><br />
                 </p>
               </div>
             </div>

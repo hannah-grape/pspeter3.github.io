@@ -1,8 +1,20 @@
-name: pspeter3
+###
+# Jekyll Configuration
+###
 pygments: true
 markdown: redcarpet
+permalink: /blog/:year/:month/:day/:title
 
-username: Phips Peter
+###
+# Site Configuration
+###
+title: pspeter3
+author: Phips Peter
 description: Hacker and Sailor
-twitter_username: pspeter3
-github_username: pspeter3
+
+###
+# Social Accounts
+###
+accounts:
+  twitter: pspeter3
+  github: pspeter3
