@@ -10,6 +10,7 @@ exclude:
 ###
 # Site Configuration
 ###
+domain: pspeter3.github.io
 title: pspeter3
 author: Phips Peter
 description: Hacker and Sailor
@@ -20,3 +21,9 @@ description: Hacker and Sailor
 accounts:
   twitter: pspeter3
   github: pspeter3
+
+###
+# Analytics
+###
+analytics:
+  google: UA-42476212-1
