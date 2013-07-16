@@ -1,47 +1,19 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-        <!-- fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono|Roboto:400,700|Fjalla+One' rel='stylesheet' type='text/css'>
-        
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-
-    </head>
-    <body>
-
-        <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.title }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
-
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  {{ site.author }} <br />
-                  {{ site.description }}
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/{{ site.github_username }}">github.com/{{ site.accounts.github }}</a><br />
-                  <a href="http://twitter.com/{{ site.twitter_username }}/">twitter.com/{{ site.accounts.twitter }}</a><br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /container -->
-
-    </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{page.title}}</title>
+  <meta name="viewport" content="width=device-width">
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Oswald|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/blog.css">
+</head>
+<body>
+  <div class="blog">
+    <aside class="sidebar">
+      <h1>{{site.title}}</h1>
+      <h2 class="subheader">{{site.description}}</h2>
+    </aside>
+    <div class="content">{{content}}</div>
+  </div>
+</body>
 </html>

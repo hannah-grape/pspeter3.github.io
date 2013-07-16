@@ -14,5 +14,10 @@
   ],
   "author": "Phips Peter",
   "license": "BSD",
-  "gitHead": "c395eec761091c8815068e3b7fbed25e799e6187"
+  "gitHead": "c395eec761091c8815068e3b7fbed25e799e6187",
+  "devDependencies": {
+    "grunt-contrib-compass": "~0.3.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.4"
+  }
 }
