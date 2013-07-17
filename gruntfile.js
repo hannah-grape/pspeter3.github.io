@@ -3,18 +3,13 @@ module.exports = function(grunt) {
     compass: {
       options: {
         basePath: 'assets',
-        require: 'zurb-foundation',
         sassDir: 'sass',
         cssDir: '../css',
         imagesDir: 'img',
         fontsDir: 'fonts',
         httpPath: '/'
       },
-      dist: {
-        options: {
-          debugInfo: true
-        }
-      }
+      dist: {}
     },
     watch: {
       sass: {
