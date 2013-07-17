@@ -1,24 +1,23 @@
 module.exports = function(grunt) {
   grunt.initConfig({
-    compass: {
+    less: {
       options: {
-        basePath: 'assets',
-        sassDir: 'sass',
-        cssDir: '../css',
-        imagesDir: 'img',
-        fontsDir: 'fonts',
-        httpPath: '/'
+        paths: ['assets/less']
       },
-      dist: {}
+      development: {
+        files: {
+          'css/blog.css': 'assets/less/blog.less'
+        }
+      }
     },
     watch: {
       sass: {
-        files: 'assets/sass/*.scss',
-        tasks: ['compass']
+        files: 'assets/less/*.less',
+        tasks: ['less']
       }
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-compass');
+  grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
 };
