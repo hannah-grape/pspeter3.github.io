@@ -6,11 +6,13 @@ markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title
 exclude:
   - assets
+  - gruntfile.js
+  - package.json
 
 ###
 # Site Configuration
 ###
-domain: pspeter3.github.io
+domain: pspeter3.com
 title: pspeter3
 author: Phips Peter
 description: Hacker and Sailor
