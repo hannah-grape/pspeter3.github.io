@@ -29,3 +29,4 @@ accounts:
 ###
 analytics:
   google: UA-42476212-1
+  mixpanel: 2b7c1f7daaab155dbae324f1ced06122
