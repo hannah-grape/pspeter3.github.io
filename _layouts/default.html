@@ -4,16 +4,15 @@
   <meta charset="UTF-8">
   <title>{{page.title}}</title>
   <meta name="viewport" content="width=device-width">
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Oswald|Open+Sans:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/blog.css">
 </head>
 <body>
-  <div class="blog">
-    <aside class="sidebar">
-      <h1>{{site.title}}</h1>
-      <h2 class="subheader">{{site.description}}</h2>
-    </aside>
-    <div class="content">{{content}}</div>
-  </div>
+  <header class="masthead">
+    <h1 class="title">
+      <a href="/">{{site.title}}</a>
+    </h1>
+    <h2 class="description">{{site.description}}</h2>
+  </header>
+  <div class="content">{{content}}</div>
 </body>
 </html>

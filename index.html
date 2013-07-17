@@ -2,12 +2,12 @@
 layout: default
 title: pspeter3
 ---
-
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<div class="feed">
+  {% for post in site.posts %}
+    <article>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h3>{{ post.date | date_to_string }}</h3>
+      <p>{{ post.excerpt }}</p>
+    </article>
+  {% endfor %}
 </div>
