@@ -1,0 +1,23 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="2.0">
+<channel>
+  <title>{{ site.title | xml_escape }}</title>
+  <link>{{ site.domain | xml_escape }}</link>
+  <description>{{ site.description | xml_escape }}</description>
+  <language>en-us</language>
+  {% for post in site.posts %}
+    <item>
+      <title>{{ post.title | xml_escape }}</title>
+      <description>{{ post.content | xml_escape }}</description>
+      <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+      <link>http://{{ site.domain}}{{ post.id }}</link>
+      {% for tag in post.tags %}
+        <category>{{ tag }}</category>
+      {% endfor %}
+    </item>
+  {% endfor %}
+</channel>
+</rss>
