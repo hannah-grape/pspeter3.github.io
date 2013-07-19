@@ -1,20 +1,17 @@
 // Dependencies
 @import "normalize.less";
 @import "pygments.less";
+@import "font-awesome.less";
 
 // Brand colors
-@brand-primary:           #428bca;
-@brand-success:           #5cb85c;
-@brand-warning:           #f0ad4e;
-@brand-danger:            #d9534f;
-@brand-info:              #5bc0de;
-@brand-white:             #ffffff;
+@blue:              #0383D5;
+@white:             #ffffff;
 
 // Scaffolding
-@body-background:         #fff;
+@body-background:         @white;
 
 // Links
-@link-color:              @brand-primary;
+@link-color:              @blue;
 @link-color-hover:        darken(@link-color, 15%);
 
 // Typography
@@ -56,16 +53,32 @@ a {
 }
 
 .masthead {
-  color: @brand-white;
-  background-color: @brand-primary;
+  color: @white;
+  background-color: @blue;
   text-align: center;
+  padding: 0;
 
-  h1 {
-    margin-top: 0;
-  }
+  .wrapper {
+    padding: 0 10%;
 
-  a {
-    color: @brand-white;
+    .logo {
+      font-size: 128px;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    a {
+      color: @white;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      text-align: left;
+    }
   }
 }
 

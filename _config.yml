@@ -18,11 +18,30 @@ author: Phips Peter
 description: Hacker and Sailor
 
 ###
-# Social Accounts
+# Navigation
 ###
 accounts:
-  twitter: pspeter3
-  github: pspeter3
+  -
+    name: RSS
+    service: rss
+    url: http://pspeter3.com/rss.xml
+  -
+    service: github
+    url: http://www.github.com/pspeter3
+  -
+    service: twitter
+    url: http://www.twitter.com/pspeter3
+  -
+    name: LinkedIn
+    service: linkedin
+    url: http://www.linkedin.com/in/pspeter3
+  -
+    service: instagram
+    url: http://instagram.com/pspeter3
+  -
+    name: App.net
+    service: adn
+    url: https://alpha.app.net/pspeter3 
 
 ###
 # Analytics

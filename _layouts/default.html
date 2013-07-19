@@ -22,10 +22,29 @@ mixpanel.init("{{site.analytics.mixpanel}}");</script><!-- end Mixpanel -->
 </head>
 <body>
   <header class="masthead">
-    <h1 class="title">
-      <a href="/">{{site.title}}</a>
-    </h1>
-    <h2 class="description">{{site.description}}</h2>
+    <div class="wrapper">
+      <i class="icon-anchor logo"></i>
+      <h1 class="title">
+        <a href="/">{{site.author}}</a>
+      </h1>
+      <h2 class="description">{{site.description}}</h2>
+      <nav>
+        <ul>
+          {% for account in site.accounts %}
+            <li>
+              <a href="{{account.url}}">
+                <i class="icon-{{account.service}}"></i>
+                {% if account.name %}
+                  {{ account.name }}
+                {% else %}
+                  {{account.service | capitalize}}
+                {% endif %}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
   </header>
   <div class="content">{{content}}</div>
 </body>
