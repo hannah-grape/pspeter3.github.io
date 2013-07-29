@@ -41,7 +41,7 @@ accounts:
   -
     name: App.net
     service: adn
-    url: https://alpha.app.net/pspeter3 
+    url: https://alpha.app.net/pspeter3
 
 ###
 # Analytics
