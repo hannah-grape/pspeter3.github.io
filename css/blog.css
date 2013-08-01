@@ -486,7 +486,7 @@ a{text-decoration:none}a:hover{text-decoration:underline}
 .masthead{background-color:#1d1f21;color:#c5c8c6}.masthead a{color:#c5c8c6}.masthead a:hover{color:#81a2be;text-decoration:none}
 .masthead h2{color:#373b41}
 .masthead .logo{color:#81a2be}
-.masthead ul.accounts{list-style-type:none;padding:0}.masthead ul.accounts li{display:inline}
+.masthead ul.accounts{list-style-type:none;padding:0}.masthead ul.accounts li{display:inline;padding:0 0.5ex}
 .masthead .wrapper{padding:0 19%;text-align:center}
 .content{max-width:80ex;padding:1.5em;color:#1d1f21}.content a{color:#81a2be}
 .content pre{padding:0.4em}
