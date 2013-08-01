@@ -1867,65 +1867,60 @@ a [class*=" icon-"] {
   content: "\f18b";
 }
 body {
-  padding: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 1.5;
   background-color: #ffffff;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: inherit;
-  font-weight: 500;
+  padding: 0;
 }
 a {
-  color: #0383d5;
   text-decoration: none;
 }
 a:hover {
-  color: #02558a;
   text-decoration: underline;
 }
 .masthead {
-  color: #ffffff;
-  background-color: #0383d5;
-  text-align: center;
+  background-color: #1d1f21;
+  color: #c5c8c6;
+}
+.masthead a {
+  color: #c5c8c6;
+}
+.masthead a:hover {
+  color: #81a2be;
+  text-decoration: none;
+}
+.masthead h2 {
+  color: #373b41;
+}
+.masthead .logo {
+  color: #81a2be;
+}
+.masthead ul.accounts {
+  list-style-type: none;
   padding: 0;
+}
+.masthead ul.accounts li {
+  display: inline;
 }
 .masthead .wrapper {
-  padding: 0 10%;
-}
-.masthead .wrapper .logo {
-  font-size: 128px;
-}
-.masthead .wrapper h1 {
-  margin-top: 0;
-}
-.masthead .wrapper a {
-  color: #ffffff;
-}
-.masthead .wrapper ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: left;
+  padding: 0 19%;
+  text-align: center;
 }
 .content {
   max-width: 80ex;
+  padding: 1.5em;
+  color: #1d1f21;
+}
+.content a {
+  color: #81a2be;
+}
+.content pre {
+  padding: 0.4em;
 }
 @media screen and (min-width: 820px) {
   body {
     font-size: 18px;
-  }
-  .content {
-    margin-left: 30%;
-    margin-right: 10%;
-    padding-left: 0;
-    padding-right: 0;
   }
   .masthead {
     position: fixed;
@@ -1933,7 +1928,15 @@ a:hover {
     bottom: 0;
     left: 0;
     z-index: 5;
-    width: 25%;
-    background-attachment: fixed;
+    width: 38%;
+  }
+  .masthead .logo {
+    font-size: 128px;
+  }
+  .masthead ul.accounts i {
+    font-size: 24px;
+  }
+  .content {
+    margin-left: 40%;
   }
 }

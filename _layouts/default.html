@@ -29,16 +29,11 @@ mixpanel.init("{{site.analytics.mixpanel}}");</script><!-- end Mixpanel -->
       </h1>
       <h2 class="description">{{site.description}}</h2>
       <nav>
-        <ul>
+        <ul class="accounts">
           {% for account in site.accounts %}
             <li>
               <a href="{{account.url}}">
                 <i class="icon-{{account.service}}"></i>
-                {% if account.name %}
-                  {{ account.name }}
-                {% else %}
-                  {{account.service | capitalize}}
-                {% endif %}
               </a>
             </li>
           {% endfor %}

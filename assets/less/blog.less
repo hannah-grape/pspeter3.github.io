@@ -8,6 +8,8 @@
 @font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
 @font-size-base: 16px;
 @font-size-desktop: 18px;
+@font-size-icon: 24px;
+@font-size-logo: 128px;
 @line-height-base: 1.5;
 @max-ex-width: 80ex;
 
@@ -47,12 +49,35 @@ a {
 .masthead {
   background-color: @tomorrow-night-background;
   color: @tomorrow-night-foreground;
+
   a {
     color: @tomorrow-night-foreground;
     &:hover {
       color: @tomorrow-night-blue;
       text-decoration: none;
     }
+  }
+
+  h2 {
+    color: @tomorrow-night-selection;
+  }
+
+  .logo {
+    color: @tomorrow-night-blue;
+  }
+
+  ul.accounts {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      display: inline;
+    }
+  }
+
+  .wrapper {
+    padding: 0 19%;
+    text-align: center;
   }
 }
 
@@ -63,6 +88,10 @@ a {
   color: @tomorrow-night-background;
   a {
     color: @tomorrow-night-blue;
+  }
+
+  pre {
+    padding: 0.4em;
   }
 }
 
@@ -79,6 +108,14 @@ a {
     left: 0;
     z-index: 5;
     width: 38%;
+
+    .logo {
+      font-size: @font-size-logo;
+    }
+
+    ul.accounts i {
+      font-size: @font-size-icon;
+    }
   }
 
   .content {

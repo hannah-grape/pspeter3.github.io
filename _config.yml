@@ -22,7 +22,6 @@ description: Hacker and Sailor
 ###
 accounts:
   -
-    name: RSS
     service: rss
     url: http://pspeter3.com/rss.xml
   -
@@ -32,14 +31,12 @@ accounts:
     service: twitter
     url: http://www.twitter.com/pspeter3
   -
-    name: LinkedIn
     service: linkedin
     url: http://www.linkedin.com/in/pspeter3
   -
     service: instagram
     url: http://instagram.com/pspeter3
   -
-    name: App.net
     service: adn
     url: https://alpha.app.net/pspeter3
 
