@@ -8,8 +8,9 @@
 @font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
 @font-size-base: 16px;
 @font-size-desktop: 18px;
-@font-size-icon: 24px;
-@font-size-logo: 128px;
+@font-size-icon: 1.5 * @font-size-base;
+@font-size-desktop-logo: 8 * @font-size-base;
+@font-size-mobile-logo: 2 * @font-size-base;
 @line-height-base: 1.5;
 @max-ex-width: 80ex;
 
@@ -27,6 +28,9 @@
 @tomorrow-night-aqua: #8abeb7;
 @tomorrow-night-blue: #81a2be;
 @tomorrow-night-purple: #b294bb;
+
+// Media Queries
+@mobile-width: 768px;
 
 // Base
 body {
@@ -95,8 +99,21 @@ a {
   }
 }
 
+// Mobile Screen
+@media screen and (max-width: @mobile-width) {
+  .masthead {
+    .logo {
+      font-size: @font-size-mobile-logo;
+    }
+
+    ul.accounts i {
+      font-size: @font-size-icon;
+    }
+  }
+}
+
 // Desktop Screen
-@media screen and (min-width: 820px) {
+@media screen and (min-width: @mobile-width) {
   body {
     font-size: @font-size-desktop;
   }
@@ -110,7 +127,7 @@ a {
     width: 38%;
 
     .logo {
-      font-size: @font-size-logo;
+      font-size: @font-size-desktop-logo;
     }
 
     ul.accounts i {

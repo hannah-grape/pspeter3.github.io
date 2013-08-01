@@ -8,12 +8,20 @@ module.exports = function(grunt) {
         files: {
           'css/blog.css': 'assets/less/blog.less'
         }
+      },
+      production: {
+        options: {
+          compress: true
+        },
+        files: {
+          'css/blog.css': 'assets/less/blog.less'
+        }
       }
     },
     watch: {
       sass: {
         files: 'assets/less/*.less',
-        tasks: ['less']
+        tasks: ['less:development']
       }
     }
   });
