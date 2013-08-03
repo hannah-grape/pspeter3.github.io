@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<h3>{{ page.date | date_to_string }}</h3>
-<div class="post">
-{{ content }}
-</div>
+<article itemscope itemtype="http://schema.org/BlogPosting">
+  <h2  itemprop="headline">{{ page.title }}</h2>
+  <h3 itemprop="dateCreated">{{ page.date | date_to_string }}</h3>
+  <div class="post" itemprop="articleBody">
+  {{ content }}
+  </div>
+</article>

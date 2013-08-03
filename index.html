@@ -4,9 +4,11 @@ title: pspeter3
 ---
 <div class="feed">
   {% for post in site.posts %}
-    <article>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <h3>{{ post.date | date_to_string }}</h3>
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <h2 itemprop="headline">
+        <a href="{{ post.url }}" itemprop="url">{{ post.title }}</a>
+      </h2>
+      <h3 itemprop="dateCreated">{{ post.date | date_to_string }}</h3>
       <p>{{ post.excerpt }}</p>
     </article>
   {% endfor %}
