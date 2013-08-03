@@ -1,0 +1,15 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+ <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
+  {% for post in site.posts %}
+    <url>
+      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      <loc>http://{{ site.domain}}{{ post.id }}</loc>
+      <changefreq>monthly</changefreq>
+      <mobile:mobile/>
+    </url>
+  {% endfor %}
+</urlset>
