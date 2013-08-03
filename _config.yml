@@ -34,6 +34,9 @@ accounts:
     service: linkedin
     url: http://www.linkedin.com/in/pspeter3
   -
+    service: google-plus
+    url: https://plus.google.com/113110190142157098735?rel=author
+  -
     service: instagram
     url: http://instagram.com/pspeter3
   -
