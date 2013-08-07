@@ -8,10 +8,11 @@
 @font-family-monospace: Monaco, Menlo, Consolas, "Courier New", monospace;
 @font-size-base: 16px;
 @font-size-desktop: 18px;
-@font-size-icon: 1.5 * @font-size-base;
+@line-height-base: 1.4;
+@font-size-icon: @line-height-base * @font-size-base;
 @font-size-desktop-logo: 8 * @font-size-base;
 @font-size-mobile-logo: 2 * @font-size-base;
-@line-height-base: 1.5;
+
 @max-ex-width: 80ex;
 
 // Tomorrow Night Color Scheme
@@ -99,6 +100,13 @@ a {
     overflow: scroll;
     padding: 0.4em;
     white-space: pre;
+  }
+}
+
+// Feed
+.feed {
+  article {
+    border-top: 1px @tomorrow-night-foreground solid;
   }
 }
 
