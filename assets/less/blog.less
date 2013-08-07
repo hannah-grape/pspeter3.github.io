@@ -110,6 +110,34 @@ a {
   }
 }
 
+article {
+  ul.widgets {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      display: inline;
+      padding: 0 0.5ex;
+
+      a:hover {
+        text-decoration: none;
+      }
+
+      &.email a {
+        color: @tomorrow-night-comment;
+      }
+
+      &.twitter a {
+        color: @tomorrow-night-aqua;
+      }
+
+      &.google-plus a {
+        color: @tomorrow-night-red;
+      }
+    }
+  }
+}
+
 // Mobile Screen
 @media screen and (max-width: @mobile-width) {
   .masthead {
