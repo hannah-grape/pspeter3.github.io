@@ -77,12 +77,11 @@ a {
 
     li {
       display: inline;
-      padding: 0 0.5ex;
+      margin: 0 0.5ex;
     }
   }
 
   .wrapper {
-    padding: 0 19%;
     text-align: center;
   }
 }
@@ -106,7 +105,7 @@ a {
 // Feed
 .feed {
   article {
-    border-top: 1px @tomorrow-night-foreground solid;
+    border-bottom: 1px @tomorrow-night-foreground solid;
   }
 }
 
@@ -117,22 +116,29 @@ article {
 
     li {
       display: inline;
-      padding: 0 0.5ex;
+      margin: 0 0.5ex;
 
-      a:hover {
-        text-decoration: none;
-      }
+      a {
+        color: @tomorrow-night-foreground;
+        &:hover {
+          text-decoration: none;
+        }
 
-      &.email a {
-        color: @tomorrow-night-comment;
-      }
+        &.email:hover {
+          color: @tomorrow-night-comment;
+        }
 
-      &.twitter a {
-        color: @tomorrow-night-aqua;
-      }
+        &.twitter:hover {
+          color: @tomorrow-night-aqua;
+        }
 
-      &.google-plus a {
-        color: @tomorrow-night-red;
+        &.facebook:hover {
+          color: @tomorrow-night-blue;
+        }
+
+        &.google-plus:hover {
+          color: @tomorrow-night-red;
+        }
       }
     }
   }
@@ -141,6 +147,8 @@ article {
 // Mobile Screen
 @media screen and (max-width: @mobile-width) {
   .masthead {
+    padding-bottom: @font-size-icon;
+
     .logo {
       font-size: @font-size-mobile-logo;
     }

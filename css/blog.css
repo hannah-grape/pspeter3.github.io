@@ -486,13 +486,14 @@ a{text-decoration:none}a:hover{text-decoration:underline}
 .masthead{background-color:#1d1f21;color:#c5c8c6}.masthead a{color:#c5c8c6}.masthead a:hover{color:#81a2be;text-decoration:none}
 .masthead h2{color:#373b41}
 .masthead .logo{color:#81a2be}
-.masthead ul.accounts{list-style-type:none;padding:0}.masthead ul.accounts li{display:inline;padding:0 0.5ex}
-.masthead .wrapper{padding:0 19%;text-align:center}
+.masthead ul.accounts{list-style-type:none;padding:0}.masthead ul.accounts li{display:inline;margin:0 0.5ex}
+.masthead .wrapper{text-align:center}
 .content{max-width:80ex;padding:1.5em;color:#1d1f21}.content a{color:#81a2be}
 .content pre{overflow:scroll;padding:0.4em;white-space:pre}
-.feed article{border-top:1px #c5c8c6 solid}
-article ul.widgets{list-style-type:none;padding:0}article ul.widgets li{display:inline;padding:0 0.5ex}article ul.widgets li a:hover{text-decoration:none}
-article ul.widgets li.email a{color:#969896}
-article ul.widgets li.twitter a{color:#8abeb7}
-article ul.widgets li.google-plus a{color:#c66}
-@media screen and (max-width:768px){.masthead .logo{font-size:32px} .masthead ul.accounts i{font-size:22.4px}}@media screen and (min-width:768px){body{font-size:18px} .masthead{position:fixed;top:0;bottom:0;left:0;z-index:5;width:38%}.masthead .logo{font-size:128px} .masthead ul.accounts i{font-size:22.4px} .content{margin-left:40%}}
+.feed article{border-bottom:1px #c5c8c6 solid}
+article ul.widgets{list-style-type:none;padding:0}article ul.widgets li{display:inline;margin:0 0.5ex}article ul.widgets li a{color:#c5c8c6}article ul.widgets li a:hover{text-decoration:none}
+article ul.widgets li a.email:hover{color:#969896}
+article ul.widgets li a.twitter:hover{color:#8abeb7}
+article ul.widgets li a.facebook:hover{color:#81a2be}
+article ul.widgets li a.google-plus:hover{color:#c66}
+@media screen and (max-width:768px){.masthead{padding-bottom:22.4px}.masthead .logo{font-size:32px} .masthead ul.accounts i{font-size:22.4px}}@media screen and (min-width:768px){body{font-size:18px} .masthead{position:fixed;top:0;bottom:0;left:0;z-index:5;width:38%}.masthead .logo{font-size:128px} .masthead ul.accounts i{font-size:22.4px} .content{margin-left:40%}}

@@ -10,6 +10,9 @@ title: pspeter3
       </h2>
       <h3 itemprop="dateCreated">{{ post.date | date_to_string }}</h3>
       <p>{{ post.excerpt }}</p>
+      <p>
+        <a href="{{ post.url }}">Read More &raquo;</a>
+      </p>
     </article>
   {% endfor %}
 </div>
