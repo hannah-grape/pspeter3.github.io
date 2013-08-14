@@ -8,6 +8,7 @@ exclude:
   - assets
   - gruntfile.js
   - package.json
+  - post
 
 ###
 # Site Configuration
