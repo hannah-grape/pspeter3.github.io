@@ -489,7 +489,7 @@ a{text-decoration:none}a:hover{text-decoration:underline}
 .masthead ul.accounts{list-style-type:none;padding:0}.masthead ul.accounts li{display:inline;margin:0 0.5ex}
 .masthead .wrapper{text-align:center}
 .content{max-width:80ex;padding:1.5em;color:#1d1f21}.content a{color:#81a2be}
-.content pre{overflow:scroll;padding:0.4em;white-space:pre}
+.content pre{font-size:14px;overflow:scroll;padding:0.4em;white-space:pre}
 .feed article{border-bottom:1px #c5c8c6 solid}
 article ul.widgets{list-style-type:none;padding:0}article ul.widgets li{display:inline;margin:0 0.5ex}article ul.widgets li a{color:#c5c8c6}article ul.widgets li a:hover{text-decoration:none}
 article ul.widgets li a.email:hover{color:#969896}
